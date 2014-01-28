@@ -5,7 +5,7 @@ KERNELDIR		:=
 
 # Select the device to build kernel modules for
 # Supported devices are located in the devices folder.
-include devices/nexus7.mk
+include devices/nexus4.mk
 
 # Targeted Android platform version.
 #
@@ -15,7 +15,7 @@ include devices/nexus7.mk
 # API versions can be found on : 
 #   http://developer.android.com/about/dashboards/index.html
 #
-PLATFORM		:= android-14
+PLATFORM		:= android-17
 
 # Where to install temporary files on build machine
 INSTALL_PATH		:= /tmp/lttng-android
